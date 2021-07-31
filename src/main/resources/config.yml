@@ -1,0 +1,11 @@
+url: 'https://cdn.discordapp.com/attachments/803283535879340113/858675628793659433/winterpack_v1.5.zip'
+hash: 'c9720c3131f167c760653d90a5793d6a0203e02c'
+commands:
+  accepted:
+    - say %player% accepted the resource pack!
+  successfullyLoad:
+    - say %player% loaded resource pack!
+  declined:
+    - say %player% denied the resource pack!
+  failedDownload:
+    - say %player% failed to download the resource pack!

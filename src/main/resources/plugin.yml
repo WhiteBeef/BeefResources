@@ -1,0 +1,14 @@
+name: BeefResources
+version: ${project.version}
+main: ru.whitebeef.beefresources.BeefResources
+api-version: 1.16
+authors: [_WhiteBeef_]
+commands:
+  beefresources:
+    usage: /<command>
+    description: Основная команда плагина
+    permission: beefresources.admin
+permissions:
+  beefresources.admin:
+    description: Админский доступ к команде ресурспака
+    default: op
